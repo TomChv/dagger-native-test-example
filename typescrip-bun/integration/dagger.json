@@ -1,0 +1,16 @@
+{
+  "name": "integration",
+  "engineVersion": "v0.19.3",
+  "dependencies": [
+    {
+      "name": "example",
+      "source": ".."
+    }
+  ],
+  "clients": [
+    {
+      "generator": "typescript",
+      "directory": "client"
+    }
+  ]
+}
